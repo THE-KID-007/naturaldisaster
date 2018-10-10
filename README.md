@@ -1,15 +1,26 @@
-# TSUNAMI DETECTION BY ML
-Our work focusses on Tsunami detection by considering the geophysical and bio-system parameters.This solution uses an integrated sensor network which senses four major parameters namely Magnetic Field, Tide level, consequent  underwater Sea turtle count followed by the their navigation direction. We use an integrated dataset describing Unusual sea animal behavioural response to multiple geophysical factors related to tsunami Engineering.
-What is the need for this prediction? Well , seismic disturbances at both land and water sea bed have caused severe damage to life and property in past. Various studies have come up with real time predictions thus , helping people to become aware of the unexpected agitations and prepare themselves to withstand them.In this way , loss of living beings or property can be reduced to a certain extent.
-Tsunami is a series of waves caused by undersea volcanic eruptions.The best approach would involve tracking and recording the aquatic animal response for real-time predictions. Such responses have been recorded  in  terms  of  terrestrial  animal  reactions  such  as hearing range impairment, locomotive activities, nesting and breeding unusual patterns and migratory changes.
-# COMPONENTS OF THE MODEL:
-# Magnetic Sensor 
-Tsunami is characterised by magnetic field disturbances in which secondary  induced magnetic field  is  generated due to induced electric current by Tsunami Flow. 
-# Motion Sensor 
-The motion sensor in the system proposed here is used to tap direction of sea turtles in terms  of  latitude and longitude along the coast of the Ocean.
-# Tide Gauge
-Tide gauges provide valuable information about tsunami arrival times , and such sensors observe the changes in water level due to tsunami.
-# Count Sensor
-This sensor is used to detect the number of turtles at a given location as tapped by other sensors discussed above. Sea turtle navigation dataset in terms of latitude and longitude, nesting or animal count along with timestamp are obtained along Indian Ocean. 
-# METHOD OF PREDICTION:
-Merged Dataset based on the previously studied parameters are integrated based on timestamp.We apply three major prediction algorithms Linear regression, decision tree learning and Logistic model  trees to categorise the critical features and produce predictive results.
+#ABSTRACT - PREDICTING PATH OF HURRICANES:
+
+Hurricanes are giant, spiralling tropical storms that can pack wind speeds of over 160 miles an hour and unleash more than 2.4 trillion gallons of rain a day. These same tropical storms are known as cyclones in the northern Indian Ocean and Bay of Bengal, and as typhoons in the western Pacific Ocean. Hurricanes begin as atmospheric disturbances over the tropical waters
+
+#CAUSES OF HURRICANES:
+
+#Impact on ecosystem:
+
+Plants and animals can be exterminated during hurricanes because of the devastating winds, storm surges, and flooding. Animals that rely on these creatures as a source of food may die if an alternative source is not found. 
+
+#Agricultural impact:
+
+Hurricanes can mightily affect agriculture. For instance, the products of hurricanes such as heavy rains and strong winds can damage crops and kill livestock. The greater fear for most farmers is contamination of crops by water originating from floods. Agricultural losses due to hurricanes can go up to $40 million dollars depending on the size and intensity of hurricanes.
+
+#Effect on humans:
+
+Hurricane winds can do a whole lot of destruction to property, availability of food and results in substantial crisis However, waves, storm surges, rain and river floods can also contribute to massive destruction. The amount of damage caused hinges on many factors including the size of the storm, intensity, and its angle approach.
+
+But, if we somehow predict the hurricane that may occur in the specific region from the previous data, then we can take necessary steps.  
+
+#PROBLEM DEFINITION:
+
+Each Tropical Storm contains start to end points in latitude and longitude format of the affected regions. Let’s say Tropical Strom named ABC started from (X1, Y1) and then it affected on (X2, Y2), (X3 Y3), (X4, Y4), etc. It went up to (X50 Y50). That means total 50locations are affected due to ABC storm. 
+Every time storm starts from any location and It affects to any random number of locations. Now, weather conditions can give the idea what is going to happen in a particular location. But, it will not predict if a storm starts in location, where it will go next. So, our goal is to use all storm occurred in past to predict the path of a future storm if we find any unusual activity in ocean related to the storm.
+Dataset is trained using Linear Regression Algorithm which is a statistical model with a linear relationship between the parameters.
+
