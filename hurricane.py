@@ -177,7 +177,7 @@ def user_input():
    
     lat  = float(input("Enter the latitude"))
     lag  = float(input("Enter the longitude"))
-    region = int(input("1 - Atlantic\n2 - Pacific\n")) 
+    region = int(input("1 - Atlantic\n")) 
     u=0
     for i in range(0,20):   
         new_list = generate_new_dataset(lat,lag,region)
